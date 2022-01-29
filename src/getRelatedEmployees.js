@@ -8,7 +8,7 @@ Considerando a boa prática de dividir o código em partes menores, apresentamos
 
     se for uma pessoa colaboradora gerente, deve retornar um array contendo os nomes das pessoas colaboradoras que ela é responsável;
     se não for uma pessoa colaboradora gerente, deverá ser lançado um erro gerado com a função construtora Error da biblioteca padrão do JavaScript com a mensagem "O id inserido não é de uma pessoa colaboradora gerente!".
-    */
+*/
 
 /*
 Como já diria o Jack Estripador, vamos por partes. Primeiros vamos
@@ -23,7 +23,6 @@ pedida pelo requisito. Após fazermos isso filtramos as pessoas que sim,
 eram gerenciadas pelo id requerido e retornamos um array contendo seu
 nome e sobrenome
 */
-
 const isManager = (id) => data.employees.some((personId) => personId.managers.includes(id));
 
 const getRelatedEmployees = (managerId) => {
