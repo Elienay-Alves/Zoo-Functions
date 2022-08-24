@@ -12,6 +12,7 @@ somente os valores que estão no objeto que capturamos. Também aqui passamos um
 caso o valor do totalEntries esteja vazio e depois criamos um um objeto que vai retornar
 o total da multiplicação do total de visitantes de cada faixa etaria pelo preço
 respectivo da entrada.
+
 Agora retornamos o Total a ser cobrado usanso o Object.values para pegar esses valores e
 somando eles com o reduce.
 
